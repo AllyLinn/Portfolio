@@ -5,3 +5,9 @@ p {
 ol,ul {
     color:purple;
 }
+body {
+    background-color: lightblue;
+}
+#me {
+    float:right;
+}

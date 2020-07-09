@@ -1,12 +1,12 @@
 p,ul {
-    color:blue;
+    color:darkblue;
     font-size:20px;
 }
 h3 {
     color:black
 }
 h1 {
-    color:darkviolet
+    color:black
 }
 body {
     background-color: lightblue;
@@ -18,6 +18,10 @@ body {
 #Samantha {
     width: 325px;
     height: 425px;
+}
+#logo { 
+        width:200px;
+        height:200px;
 }
 div {
     border-style:solid;
@@ -32,6 +36,7 @@ div {
 }
 a {
     font-size:20px;
+    color: blue;
 }
 #Fam {
     width:375px;
@@ -42,4 +47,13 @@ div {
 }
 .right {
     float:right;
+}
+#freetime {
+    background-color: lightyellow
+}
+#summer {
+    background-color: lightcyan
+}
+#family {
+    background-color: lightgrey
 }
