@@ -17,7 +17,7 @@ body {
 }
 #Samantha {
     width: 325px;
-    height: 400px;
+    height: 425px;
 }
 div {
     border-style:solid;
@@ -32,4 +32,8 @@ div {
 }
 a {
     font-size:20px;
+}
+#Fam {
+    width:375px;
+    height:260px;
 }
