@@ -37,3 +37,9 @@ a {
     width:375px;
     height:260px;
 }
+div {
+    text-align:left;
+}
+.right {
+    float:right;
+}
