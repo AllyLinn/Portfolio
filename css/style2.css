@@ -6,29 +6,30 @@ h3 {
     color:black
 }
 h1 {
-    color:black
+    color:black;
+    text-align:center;
 }
 body {
     background-color: lightblue;
 }
-#AlexMorgan, #Agawak {
-    width: 400px;
-    height: 250px;
+#ball, #Agawak {
+    width: 300px;
+    height: 150px;
 }
 #Samantha {
     width: 325px;
     height: 425px;
 }
 #logo { 
-        width:200px;
-        height:200px;
+        width:150px;
+        height:150px;
 }
-div {
+.boxes {
     border-style:solid;
     border-width: 4px;
     border-color: deeppink;
 }
-div {
+.boxes {
     background-color:white;
     padding:30px;
     margin:20px;
@@ -49,11 +50,15 @@ div {
     float:right;
 }
 #freetime {
-    background-color: lightyellow
+    background-color: lightyellow;
 }
 #summer {
-    background-color: lightcyan
+    background-color: lightcyan;
 }
 #family {
-    background-color: lightgrey
+    background-color: lightgrey;
+}
+#racket { 
+    width:200px;
+    height:200px;
 }

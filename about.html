@@ -4,20 +4,25 @@
         <title>Ally Linn</title>
         <link href="css/style2.css" type="text/css" rel="stylesheet">
         <link href="css/positioning.css" type="text/css" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" 
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     </head>
 
     <body>
         <h1>About Ally Linn</h1>
 <!--Link to Homepage-->
-        <a href="index.html">Homepage</a>
+        <a href="index.html">--- Click here to go to my homepage</a>
 
 <!-- Background about myself-->
         <p>
-            Hi! My name is <strong>Ally,</strong> and I am going to be a junior in the fall. <br> 
-            I live in Deerfield, Illinois which is a suburb 45 minutes outside of Chicago.
+            --- Hi! My name is <strong>Ally,</strong> and I am going to be a junior in the fall. <br> 
+            --- I live in Deerfield, Illinois which is a suburb 45 minutes outside of Chicago.
         </p>
 
 <!-- List of Favorite Activities and Food-->
+<div class="container">
+    <div class="row">
+      <div class="col-sm-6">
         <h3>My Favorite Activities</h3>
             <ul>
                 <li>Soccer</li>
@@ -26,29 +31,50 @@
                 <li>Reading</li>
                 <li>Watching TV</li>
             </ul>
+      </div>
+      <div class="col-sm-3">
         <h3>My Favorite Foods</h3>
             <ul>
                 <li>Apples</li>
                 <li>Pretzels</li>
                 <li>Pizza</li>
             </ul>
+      </div>
+    </div>
+  </div>
 
-<!--Specifics about myself-->
-    <!-- Activities-->
-    <div id="freetime">
+  <!--Specific about myself-->
+  <!--Activities-->
+  <div class="container=fluid boxes" id="freetime">
+    <div class="row">
+        <div class="col-sm-12">
             <h3>In My Free Time</h3>
+        </div>
+      <div class="col-sm-6">
+        <h4>Soccer</h4>
         <p>
             My favorite sport to play is soccer, and I play it all throughout the year. 
-            During the fall and winter, I play on a travel club team, and I play for my high school in the spring. 
-            I have been playing soocer since I was three years old! I also watch European soccer games on TV 
-            with my dad! <br>
+            I play on a travel club team, and I play for my high school. 
+            I have been playing soocer since I was three years old!  <br>
             <a href="soccer.html">Click here to see my favorite soccer players!</a>
         </p>
-        <img src="soccer2.png" alt="Soccer" class="left" id="AlexMorgan">
-        </div>
-        <br>
+        <img src="soccer2.png" alt="Soccer" class="left" id="ball">
+      </div>
+      <div class="col-sm-6">
+        <h4>Tennis</h4>
+            <p>
+                I also love to play to play tennis! I have been playing tennis since I was little,
+                and I have made a lot of new friends from playing tennis.<br>
+            </p>
+            <img src="tennis.png" alt="Tennis" class="right" id="racket">
+      </div>
+    </div>
+  </div>
+  
+    <br>
+
     <!--Summer-->
-    <div id="summer">
+    <div id="summer" class="boxes">
             <h3>Summer</h3>
         <p>
             Over the summer, I go to overnight camp in Wisconsin. 
@@ -62,7 +88,7 @@
         <br>
     </div>
     <!--My family-->
-    <div id="family">
+    <div id="family" class="boxes">
             <h3>My Family</h3>
         <p>
             I have a family of 4! I have one older sister named Samantha who will be a junior at 
@@ -75,3 +101,4 @@
         </div>
     </body>
 </html>
+

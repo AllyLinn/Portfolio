@@ -1,20 +1,26 @@
-#AlexMorgan {
+#ball {
     position: relative;
-    left:500px;
 }
 #Fam {
     position:relative;
+    top:25px;
+    right: 150px;
 }
 #Samantha {
     position: relative;
     left: 100px;
+    top:25px;
 }
 #logo {
     position:relative;
-    right:200px;
+    right:400px;
     top:25px;
 }
 #Agawak {
     position:relative;
     top:25px;
+}
+#racket {
+    position: relative;
+    right:100px
 }
