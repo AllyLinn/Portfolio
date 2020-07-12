@@ -9,7 +9,7 @@ h1 {
     color:black;
     text-align:center;
 }
-body {
+.body {
     background-color: lightblue;
 }
 #ball, #Agawak {

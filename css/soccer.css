@@ -1,0 +1,35 @@
+.boxes {
+    border-style:solid;
+    border-width: 4px;
+    border-color: deeppink;
+}
+.boxes {
+    background-color:white;
+}
+h3 {
+    color:black
+}
+h1 {
+    color:black;
+    text-align:center;
+}
+.body {
+    background-color: lightblue;
+}
+.team {
+    position:relative;
+    left: 25px;
+}
+.alex, .julie {
+    position:relative;
+    left: 30px;
+}
+.julie {
+    position: relative;
+    top: 20px;
+}
+.logo {
+    position: relative;
+    left:125px;
+    top:50px;
+}
