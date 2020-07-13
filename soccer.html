@@ -6,7 +6,22 @@
         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     </head>
 
+
+
     <body class="body">
+
+      <script type="text/javascript">
+      var mySoccerPlayers = ["julie ertz", "alex morgan", "christian pulisic"];
+      var userGuess = prompt("Who is your favorite soccer players?");
+      var userGuessLower = userGuess.toLowerCase();
+      if (!mySoccerPlayers.includes(userGuessLower)) {
+        alert("Nah! They're pretty lame...");
+      }
+      else {
+        alert("YEAH I LOVE THEM!");
+      }
+      </script>
+
         <div class="container">
             <div class="row">
               <div class="col-sm-12">
